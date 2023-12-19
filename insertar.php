@@ -1,12 +1,7 @@
-<?php
 
-require_once('webhost.php');
+<?php require_once('./components/header.php') ?>
 
-?>
-
-<?php require_once('header.php') ?>
-
-<?php require_once('nav.php') ?>
+<?php require_once('./components/navbar.php') ?>
 
 <div class="contenedor">
     <div class="regresar">
@@ -59,5 +54,5 @@ require_once('webhost.php');
     </form>
 </div>
 
-<script src="js/prueba.js"></script>
-<?php require_once('footer.php'); ?>
+
+<?php require_once('./components/footer.php'); ?>

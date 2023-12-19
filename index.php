@@ -69,7 +69,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <div class="col p-5 rounded-end">
 
                 <h2 class="fw-bold text-white text-center py-5">Bienvenido!</h2>
-                <form class="text-white" id ="login-form">
+                <form class="text-white" id ="login-form" method ="POST">
                     <div class="mb-4">
                         <label for="email" class="form-label">Email</label>
                         <input type="email" class="form-control" placeholder="Email" name="email" id="email">

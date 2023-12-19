@@ -1,16 +1,13 @@
 <?php
 
-function estaAutenticado(): bool
+session_start();
 
-{
-    session_start();
-    $auth = $_SESSION['login'];
+$auth = ['login' => $_SESSION['login'], 'role' => $_SESSION['role']];
 
-    if ($auth) {
-        return true;
-    }
-
-    return false;
+if (!$auth || $auth['role'] !== 'admin') {
+    header("Location: ./insertar.php");
+    exit;
 }
-?>
 
+
+?>
