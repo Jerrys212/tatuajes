@@ -1,13 +1,13 @@
 body {
-  background: rgb(0, 0, 0);
-  background: linear-gradient(
-    73deg,
-    rgba(0, 0, 0, 1) 44%,
-    rgba(45, 56, 253, 1) 100%
-  );
+        background: rgb(0, 0, 0);
+        background: linear-gradient(
+                73deg,
+                rgba(0, 0, 0, 1) 44%,
+                rgba(45, 56, 253, 1) 100%
+        );
 }
 
 .bg {
-  background-image: url(../img/login.jpg);
-  background-position: center center;
+        background-image: url(../img/login.jpg);
+        background-position: center center;
 }
