@@ -12,7 +12,7 @@
 
 <body>
 
-
+    <?php include './config/db.php'; ?>
     <main class="container w-75 bg-dark mt-5 rounded shadow">
         <div class="row align-items-stretch">
             <div class="col bg d-none d-lg-block col-md-5 col-lg-5 col-xl-6"></div>
@@ -20,7 +20,7 @@
             <div class="col p-5 rounded-end">
 
                 <h2 class="fw-bold text-white text-center py-5">Bienvenido!</h2>
-                <form class="text-white">
+                <!-- <form class="text-white">
                     <div class="mb-4">
                         <label for="email" class="form-label">Email</label>
                         <input type="email" class="form-control" placeholder="Email" name="email" id="email">
@@ -33,6 +33,24 @@
                         <input type="checkbox" class="form-check-input" name="connected">
                         <label for="connected" class="form-check-label">Remember me</label>
                     </div>
+                    <div class="d-grid">
+                        <button class="btn btn-primary" type="submit">Sign In</button>
+                    </div>
+                    <div class="my-3">
+                        <span>No register? <a href="#"> sign up </a>
+                        </span>
+                    </div>
+                </form> -->
+                <form class="text-white">
+                    <div class="mb-4">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" placeholder="Email" name="email" id="email">
+                    </div>
+                    <div class="mb-4">
+                        <label for="password" class="form-label">Password</label>
+                        <input type="password" class="form-control" placeholder="Password" name="password" id="password">
+                    </div>
+
                     <div class="d-grid">
                         <button class="btn btn-primary" type="submit">Sign In</button>
                     </div>
